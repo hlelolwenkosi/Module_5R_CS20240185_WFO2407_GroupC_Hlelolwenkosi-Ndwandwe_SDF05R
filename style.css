@@ -31,7 +31,7 @@ p {
     margin-bottom: 40px;
 }
 
-.custom-btn {
+.btn-1 {
     width: 130px;
     height: 40px;
     color: #000;
@@ -49,6 +49,7 @@ p {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
+
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */

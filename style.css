@@ -45,12 +45,29 @@ p {
     transition: all 0.3s ease;
     position: relative;
     display: block;
-    margin: 0 auto 20px; /* Center and add margin to stack vertically */
+    margin: 40px auto 20px; /* Center and add margin to stack vertically */
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
-
 }
 
+btn-1::before {
+    
+    content: " Click Here";
+    background: linear-gradient( 45deg, 
+    #5100ff,#ff002b, #00ff84, #ff7300,
+    #ff00aa, #b300ff, #00ff11,#ff2f00);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: 1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s, ease-in-out;
+    opacity: 0;
+}
 /* Add your custom styles for btn-1, btn-2, and btn-3 */

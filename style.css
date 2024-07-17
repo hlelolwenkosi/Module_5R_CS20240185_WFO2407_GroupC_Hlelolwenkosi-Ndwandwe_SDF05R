@@ -70,4 +70,16 @@ btn-1::before {
     transition: opacity .3s, ease-in-out;
     opacity: 0;
 }
+@keyframes glowing { 
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+}
+
+
+.btn-1:hover::before { 
+    opacity: 1;
+ }
+
+
 /* Add your custom styles for btn-1, btn-2, and btn-3 */

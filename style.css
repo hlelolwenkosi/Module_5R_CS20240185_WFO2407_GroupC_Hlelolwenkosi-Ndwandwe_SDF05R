@@ -35,13 +35,12 @@ p {
     width: 130px;
     height: 40px;
     color: #ff00cc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    background: transparent;
     cursor: pointer;
-    background: #000
+    background: #000;
     transition: all 0.3s ease;
     position: relative;
     display: block;
@@ -52,9 +51,8 @@ p {
     outline: none;
 }
 
-btn-1::before {
-    
-    content: " Click Here";
+.btn-1::before {
+     content: "";
     background: linear-gradient( 45deg, 
     #5100ff,#ff002b, #00ff84, #ff7300,
     #ff00aa, #b300ff, #00ff11,#ff2f00);
@@ -80,6 +78,35 @@ btn-1::before {
 .btn-1:hover::before { 
     opacity: 1;
  }
+
+ .btn-2{
+    width: 150px;
+   height: 40px;
+   color: #000;
+   border: 2px solid #711414
+   padding: 10px 25px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 500;
+   text-transform: uppercase;
+   background: none;
+   cursor: pointer;
+   transition: color 0.3s linear;
+   position: relative;
+   display: block;
+   margin: 40px auto 20px; /* Center and add margin to stack vertically */
+   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+       7px 7px 20px 0px rgba(0, 0, 0, .1),
+       4px 4px 5px 0px rgba(0, 0, 0, .1);
+   outline: none;
+}
+
+.btn-2:hover {
+    color: #ff00cc;
+}
+
+
+
+
 
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */

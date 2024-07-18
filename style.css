@@ -74,7 +74,6 @@ p {
     100% {background-position: 0 0;}
 }
 
-
 .btn-1:hover::before { 
     opacity: 1;
  }
@@ -159,6 +158,20 @@ p {
     z-index: -1;
     transition: 0.8s;   
 }
+.btn-3::before {
+    top: 0;
+    border-radius: 0 0 50% 50%; 
+}
+
+.btn-3:hover::before {
+     height:100%;
+}
+
+
+
+
+
+
 
 
 

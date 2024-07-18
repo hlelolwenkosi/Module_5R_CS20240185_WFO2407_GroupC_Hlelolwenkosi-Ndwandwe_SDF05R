@@ -44,7 +44,7 @@ p {
     transition: all 0.3s ease;
     position: relative;
     display: block;
-    margin: 40px auto 20px; /* Center and add margin to stack vertically */
+    margin: 40px auto 20px; 
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);
@@ -92,7 +92,7 @@ p {
    transition: color 0.3s linear;
    position: relative;
    display: block;
-   margin: 40px auto 20px; /* Center and add margin to stack vertically */
+   margin: 40px auto 20px; 
    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
        7px 7px 20px 0px rgba(0, 0, 0, .1),
        4px 4px 5px 0px rgba(0, 0, 0, .1);
@@ -137,7 +137,7 @@ p {
     transition:  0.8s;
     position: relative;
     display: block;
-    margin: 40px auto 20px; /* Center and add margin to stack vertically */
+    margin: 40px auto 20px; 
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.893),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1);

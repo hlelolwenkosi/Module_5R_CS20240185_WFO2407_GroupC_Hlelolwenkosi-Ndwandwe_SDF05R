@@ -117,6 +117,14 @@ p {
     transform-origin: 0 0;
     transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
 } 
+.btn-2::before {
+    transform: scaleX(0);
+}
+.btn-2:hover::before {
+    transform: scaleX(1);
+}
+
+
 
 
 

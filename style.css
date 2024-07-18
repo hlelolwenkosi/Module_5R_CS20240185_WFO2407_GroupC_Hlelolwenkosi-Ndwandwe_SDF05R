@@ -146,6 +146,10 @@ p {
     color: #0d0d0d;
     overflow: hidden;
 }
+.btn-3:hover {
+    color: #ff00cc
+}
+
 
 
 
